@@ -1,0 +1,66 @@
+/*SIVUTON TYYLI*/
+body {
+	background-color: rgb(160,160,160);	
+  	min-height: 90vh;
+  	display: flex;
+  	flex-direction: column;
+}
+
+.tyot, .koulu {
+	width: 50%;
+	box-sizing: border-box;
+	padding: 1%;
+	float: left;
+}
+
+.margin {
+	width: 40%;
+	box-sizing: border-box;
+	padding: 1%;
+	float: right;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.muut {
+	float: none;
+	clear: both;
+	text-align: left;
+	padding: 1%;
+}
+
+/*TEKSTIEN TYYLIT */
+p {
+	text-align: justify;
+}
+
+th {
+	padding: 10px;
+}
+
+/*TOP NAVIGATION BAR*/
+/* Style the top navigation bar */
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+	background-color: #f2f2f2;
+	color: grey;
+}

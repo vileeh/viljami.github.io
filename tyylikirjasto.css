@@ -1,0 +1,32 @@
+ header {
+	float: center;
+	text-align: center;
+	margin-top: 20%;
+	}
+
+ div {
+	float: center;
+	text-align: center;
+	
+	}
+
+section {
+	float: center;
+	text-align: center;
+	}
+
+img {
+	width: 200px;
+	height: 200px;
+	}
+
+#animated_div {
+	position: relative;
+	animation:animated_div 20s infinite;
+	animation-timing-function: linear;
+	}
+
+@keyframes animated_div {
+	100% {transform: rotate(360deg);left:0px;}
+	}
+

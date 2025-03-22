@@ -1,0 +1,53 @@
+body {
+	background-color: rgb(160,160,160);
+<!-- HTML Images jäi vähän -->
+<!-- HTML taulukot ja borders jäi -->
+<!-- inlines ja boxes -->
+}		
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+	.header {
+		background-color: #f1f1f1;
+		padding: 20px;
+		text-align: center;	}
+
+/* Style the top navigation bar */
+	.topnav {
+ 		overflow: hidden;
+		background-color: #333;	}
+
+/* Style the topnav links */
+	.topnav a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;	}
+
+/* Change color on hover */
+	.topnav a:hover {
+		background-color: #f2f2f2;
+		color: light-grey;	}
+
+/*Alaviiva border */
+	h3.solid {border-style: none none solid none;
+	border-width: 2px; 
+	border-color: black;	}
+
+/*normin tekstin tyyli */
+	p	{
+	margin: 15px;
+	color: purple	}
+
+/* blockin koko */
+	div {
+	max width: 100px;
+	height: 100px;
+	background-color: light-grey;	}
+</style>

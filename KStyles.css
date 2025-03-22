@@ -1,0 +1,57 @@
+/*SIVUTON TYYLI*/	
+
+body {
+	background-color: rgb(160,160,160);	
+  	min-height: 90vh;
+  	display: flex;
+  	flex-direction: column;	}
+
+.Playout {
+	float: left;
+	width: 40%;
+	min-width: 300px;
+	padding: 1%;	}
+
+
+.row:after {
+  content: ""; <!--Komennon jälkeen tuleva asia-->
+  display: table;  <!--Näytä asia jonakin, tässä taulukon mukaisesti-->
+  clear: both;	} <!--Clear pakottaa loput asiat johonkin paikkaan, 
+			tässä tapauksessa molempien alle-->
+
+/*muut vastuutehtävät */
+	.muut {
+		float: left;
+		text-align: left;	
+		padding: 1%;	}
+
+/*TEKSTIEN TYYLIT */
+	p {
+	text-align: justify;
+	}
+
+	th {
+	padding: 10px;
+	}
+
+
+/*TOP NAVIGATION BAR*/
+/* Style the top navigation bar */
+	.topnav {
+ 		overflow: hidden;
+		background-color: #333;	}
+
+/* Style the topnav links */
+	.topnav a {
+		float: left;
+		display: block;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;	}
+
+/* Change color on hover */
+	.topnav a:hover {
+		background-color: #f2f2f2;
+		color: grey;	}
+

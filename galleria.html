@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="GStyles.css">
+	<title>Galleria</title>
+</head>
+
+<body>
+	<div class="header">
+		<h1>Galleria</h1>
+	</div>
+
+	<div class="topnav">
+		<a href="../Portfolio.html">Takaisin päänäkymään</a>
+
+		<button type="button" class="collapsible">Lankkupöytä</button>
+		<div class="dropdown">
+			<span>Lankkupöytä</span>
+			<div class="content">
+				<img src="start.jpg" width="30%" height="30%" float:"center"<map name="Hionta">
+				<img src="hionta.jpg" width="30%" height="30%"<map name="Hionta">
+				<img src="hionta2.jpg" width="30%" height="30%"<map name="Hionta">
+				<img src="liimaus.jpg" width="30%" height="30%"<map name="Hionta">
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="column">
+				<h3>Column</h3>
+				<p>Lorem </p>
+			</div>
+		</div>
+
+		<img src="KuvaKansio/HJ3_norkka.jpg" width="40%" height="40%" />
+		<map name="Hyvä joukkue 3">
+
+
+			<script>
+				var coll = document.getElementsByClassName("collapsible");
+				var i;
+
+				for (i = 0; i < coll.length; i++) {
+					coll[i].addEventListener("click", function () {
+						this.classList.toggle("active");
+						var content = this.nextElementSibling;
+						if (content.style.maxHeight) {
+							content.style.maxHeight = null;
+						} else {
+							content.style.maxHeight = content.scrollHeight + "px";
+						}
+					});
+				}
+			</script>
+
+</body>
+
+
+</html>
