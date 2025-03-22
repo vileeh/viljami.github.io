@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fin">
+		<!-- <meta name>="viewport" content="width=device-width, initial-scale=1.0"> -->
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styles.css">
+	<title>Viljami Erola - portfolio</title>
+	<link rel="icon" type="image/x-icon" href="photos/favicon.png">
+</head>
+
+
+<body>
+	<main>
+		<!-- otsikkeet -->
+		<div style="float:right" ;>
+			<div class="topnav">
+				<a href="Portfolio.html">Suomi</a>
+				<a href="" onclick="NotUsed()">English</a>
+				<a href="" onclick="NotUsed()">Swedish</a>
+			</div>
+		</div>
+
+		<!--otsikko-->
+		<h1>Viljami Erola - Portfolio</h1>
+		<section>
+			<div style="margin:20px;">
+				<b>Rakennusinsinööri</b>
+				<br>
+			</div>
+		</section>
+
+		<!-- Eri sivustot -->
+
+		<nav class="topnav">
+			<!-- Harrastukset/harrastukset.html -->
+			<!-- Referenssit/referenssit.html -->
+
+			<a href="KoKo/KoKo.html">Koulutus ja kokemus</a>
+
+			<a href=""
+			   onclick="NotUsed()">Harrastukset</a>
+
+			<a href=""
+			   onclick="NotUsed()">Referenssit</a>
+
+			<a href="Galleria/galleria.html">Galleria</a>
+			<a href="https://viljamierolaofficial.blogspot.com/" target="_blank">Blogi</a>
+			<a href="Junk/Toolbox.html" onclick="Locked()"> Sivuston työkalut</a>
+			<a href="WebPageGame/Game1.html" target="_blank">Peli</a>
+		</nav>
+
+
+		<!-- henkilökuva -->
+		<div>
+			<div class="div3">
+				<img src="photos/hlöKuva.jpg" width="290" height="300"
+					 alt="Henkilökuva" usemap="#hlökuva">
+				<map name="hlökuva">
+					<area shape="circle" coords="170,60,40" href="https://www.instagram.com/vileeh/?hl=fi"
+						  target="_blank" onclick="myFunction()">
+				</map>
+			</div>
+
+			<!-- Profiili -->
+			<div style=padding:50px;>
+				<h3 class="solid">Profiili</h3>
+				<div class="div1">
+					<p>
+						Morjesta! Olen <b>Viljami</b> ja tässä on minun HTML -tyyppinen portfolioni!
+						<br />
+						<br />
+						Olen 23 vuotias vasta valmistunut nuori mies ja rakennusalan tuore tekijä.
+						Olen alunperin asunut maalla Pomarkussa, missä olen aika paljon oppinut rakentamisesta
+						sekä myös rakennellut kaikenlaista. Lisää projekteista voi katsoa referenssi -sivustolta. Urheilua ja
+						jääkiekkoa olen harrastanut jo vuodesta 2008, mistä olen oppinut paineensietokykyä,
+						määrätietoisuutta sekä jokapäiväistä tekemistä. Hokutoryu jujutsun aloitin opiskeluiden ohella.
+						Tämän lisäksi olen kunnianhimoinen monialaharrastaja, mihin liittyy vahvasti monipuoliset projektit aina Arduinolla
+						ja Unityn peliohjelmoinnin parista myös kattavasti urheiluun. Lampun toivoisinkin enemmän tunteja päivään! :D
+						<br />
+						<br />
+						Tavoitteenani on oppia mahdollisimman paljon rakennusalan tarjoamista haasteista sekä antaa
+						työnantajalleni innokkaan työnpanokseni.
+					</p>
+				</div>
+			</div>
+
+			<!-- Skriptit -->
+			<script>
+			<!--	ponnahdusikkuna-- >
+					function myFunction() {
+						alert("You clicked my face!");
+					}
+
+				function NotUsed() {
+					alert("Sivusto ei ole tällä hetkellä käytössä");
+				}
+
+				function Locked() {
+					alert("Kirjaudu");
+				}
+			</script>
+		</div>
+	</main>
+
+	<footer>
+		<!-- sivustot -->
+		<div class="alatunniste" ;>
+			<h3 style="border-bottom: solid; border-width: 2px; border-color: black;
+			margin-left: auto; margin-right: auto; width: 25%">Sivustot</h3>
+
+			<div class="botnav">
+				<a href="https://www.instagram.com/vileeh/?hl=fi"
+				   target="_blank">Instagram</a>
+				<a href="https://www.linkedin.com/in/viljami-erola/?originalSubdomain=fi"
+				   target="_blank">LinkedIn</a>
+				<a href="https://twitter.com/viljamierola"
+				   target="_blank">Twitter</a>
+				<a href="https://www.youtube.com/channel/UCpGaldSifGjQV6QPZQzQx6A"
+				   target="_blank">Youtube</a>
+			</div>
+
+			<!-- Lopettavat sanat -->
+			<!-- Harrastukset -->
+			<!-- Valmis aloittamaan -->
+			<address>
+				<br>
+				Laatinut Viljami Erola<br>
+				<a href="mailto:erolav@yahoo.com">erolav@yahoo.com</a>
+				<br>
+				Tampere, Rahola, 33300<br>
+				Suomi, Finland
+			</address>
+		</div>
+	</footer>
+
+	<!--FLOATING CONTACT CHATBOX-->
+	<div style:"chatbox">
+		<a>Ota yhteyttä</a>
+
+	</div>
+
+
+</body>
+</html>
